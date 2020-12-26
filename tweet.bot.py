@@ -29,6 +29,7 @@ def check_mentions(api, since_id):
                 in_reply_to_status_id=tweet.id,
             )
             logger.info(f"Since_id: {new_since_id}")
+            os.environ['BOT_SINCEID'] = str(new_since_id)
         except Exception as e:
             logger.Warning(f"Error answering to mention: {e}", exc_info=True)
             continue
