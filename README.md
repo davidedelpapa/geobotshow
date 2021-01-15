@@ -22,6 +22,11 @@ If you want to know more, please follow the dev.to series:
 
 ## LICENSE
 
-The software is licensed under the MIT license. However, consider that it retrieves data from [Mapbox](https://www.mapbox.com/) and [OpenStreetMap](https://www.openstreetmap.org/). Refer also to their licenses.
+The software is licensed under the MIT license.
 
-The system can be adapted to be tile-server agnostic (i.e., use a provider other than Mapbox).
+However, consider that it retrieves data from [Mapbox](https://www.mapbox.com/) and [OpenStreetMap](https://www.openstreetmap.org/).
+Data from earthquakes is retrieved from [USGS](https://www.usgs.gov/)
+
+Refer also to the data provider's licenses.
+
+**Note**: The system can be adapted to be tile-server agnostic (i.e., use a provider other than Mapbox).
